@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:2d1qr-devfile-sample-python-basic-ijxu
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7de9d090d573fde39b129eca21ae2690683fd9aee3cf2400c9c34df9e37cd1d3
         name: my-python
         resources: {}
 status: {}
