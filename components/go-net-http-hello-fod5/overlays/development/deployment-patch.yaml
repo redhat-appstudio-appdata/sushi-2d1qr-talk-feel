@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-net-http-hello-fod5
+  namespace: arewm-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:1e4495917f22524da033d8717efd123f127c2d5b98dcda0f2b7d64aee33f4909
+        name: my-go
+        resources: {}
+status: {}
